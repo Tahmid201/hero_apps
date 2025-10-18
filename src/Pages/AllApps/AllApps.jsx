@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import appsData from "../../data/AppsData.json";
+import { FaStarHalfAlt } from "react-icons/fa";
 
 export const AllApps = () => {
   const [apps] = useState(appsData);
@@ -51,7 +52,7 @@ export const AllApps = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {filteredApps.map((app) => (
             <Link
-              className="border p-4 rounded hover:shadow-lg"
+              className="border p-4 rounded hover:shadow-lg bg-white "
               key={app.id}
               to={`/app/${app.id}`}
             >
@@ -60,9 +61,12 @@ export const AllApps = () => {
                 alt={app.title}
                 className="w-full h-32 object-cover rounded"
               />
-              <h3 className="font-semibold mt-2">{app.title}</h3>
+              <h3 className="font-semibold mt-2 text-black">{app.title}</h3>
               <p className="text-gray-500">Downloads: {app.downloads}</p>
-              <p className="text-yellow-500">{app.ratingAvg}</p>
+              <div className="flex justify-between items-center">
+                <p className="text-yellow-500 ">{app.ratingAvg}</p>
+                <p className="text-black"><FaStarHalfAlt /></p>
+              </div>
             </Link>
           ))}
         </div>

@@ -5,6 +5,7 @@ import ErrorPages from '../Pages/ErrorPages/ErrorPages';
 import Home from '../Pages/Home/Home';
 import AllApps from '../Pages/AllApps/AllApps';
 import AppDetails from '../Pages/AppDetails/AppDetails';
+import InstallationPage from '../Pages/InstallatedPage/InstalledPage';
 
 export const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ export const router = createBrowserRouter([
         path: "/app/:id",
         element: <AppDetails />
       },
+      {
+        path="/installs",
+        element: <InstallationPage/>
+      }
       {
         path: "*",
         element: <ErrorPages />
