@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "image": "./assets/app1.webp",
+    "title": "ChatFlow",
+    "companyName": "Flow Labs",
+    "description": "A smart chat assistant for teams.",
+    "size": 42,
+    "reviews": 1245,
+    "ratingAvg": 4.6,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 645 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "./assets/app2.webp",
+    "title": "FitPulse",
+    "companyName": "Pulse Inc.",
+    "description": "Track workouts and health metrics.",
+    "size": 28,
+    "reviews": 845,
+    "ratingAvg": 4.3,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 95 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "./assets/app3.webp",
+    "title": "NoteSpark",
+    "companyName": "Scribe Co.",
+    "description": "Fast note-taking with cloud sync.",
+    "size": 18,
+    "reviews": 420,
+    "ratingAvg": 4.1,
+    "downloads": 45000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 65 },
+      { "name": "4 star", "count": 160 },
+      { "name": "5 star", "count": 160 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "./assets/app4.webp",
+    "title": "SnapEdit",
+    "companyName": "Pixel Studio",
+    "description": "Photo editor with AI filters.",
+    "size": 60,
+    "reviews": 2010,
+    "ratingAvg": 4.7,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "./assets/app5.webp",
+    "title": "BudgetBee",
+    "companyName": "Moneywise",
+    "description": "Simple budget and expense manager.",
+    "size": 12,
+    "reviews": 310,
+    "ratingAvg": 4.0,
+    "downloads": 30000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 120 },
+      { "name": "5 star", "count": 105 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "./assets/app6.webp",
+    "title": "CookPad",
+    "companyName": "Kitchenly",
+    "description": "Thousands of recipes with step-by-step videos.",
+    "size": 75,
+    "reviews": 540,
+    "ratingAvg": 4.4,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 225 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=512&q=80",
+    "title": "MapWay",
+    "companyName": "GeoTech",
+    "description": "Offline maps and routing.",
+    "size": 110,
+    "reviews": 98,
+    "ratingAvg": 3.9,
+    "downloads": 15000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 8 },
+      { "name": "3 star", "count": 20 },
+      { "name": "4 star", "count": 30 },
+      { "name": "5 star", "count": 30 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=512&q=80",
+    "title": "StudyBuddy",
+    "companyName": "EduNext",
+    "description": "Flashcards, quizzes and study plans.",
+    "size": 22,
+    "reviews": 670,
+    "ratingAvg": 4.5,
+    "downloads": 80000,
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 8 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 390 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1549880338-65ddcdfd017b?w=512&q=80",
+    "title": "NewsWire",
+    "companyName": "DailyPress",
+    "description": "Curated news and personalized feeds.",
+    "size": 40,
+    "reviews": 1100,
+    "ratingAvg": 4.2,
+    "downloads": 110000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=512&q=80",
+    "title": "Travelly",
+    "companyName": "Wander",
+    "description": "Plan trips, find deals and itineraries.",
+    "size": 88,
+    "reviews": 980,
+    "ratingAvg": 4.3,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 515 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=512&q=80",
+    "title": "DevPad",
+    "companyName": "Coder's Lab",
+    "description": "Code snippets, terminals and playgrounds.",
+    "size": 130,
+    "reviews": 1500,
+    "ratingAvg": 4.8,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 1100 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=512&q=80",
+    "title": "SleepWell",
+    "companyName": "Restful",
+    "description": "Guided meditations and sleep tracks.",
+    "size": 55,
+    "reviews": 720,
+    "ratingAvg": 4.4,
+    "downloads": 70000,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 402 }
+    ]
+  }
+]
