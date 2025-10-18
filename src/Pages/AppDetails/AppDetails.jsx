@@ -16,7 +16,7 @@ export default function AppDetails() {
   if (!app) {
     return (
       <div className="text-center mt-20">
-        <p className="text-gray-600 text-lg mb-3">App Not Found 😢</p>
+        <p className="text-gray-600 text-lg mb-3">App Not Found</p>
         <Link to="/apps" className="text-blue-600 underline">
           Back to All Apps
         </Link>
