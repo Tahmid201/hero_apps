@@ -100,7 +100,7 @@ const Home = () => {
           ))}
         </div>
         <div className="text-center mt-6">
-          <Link to="/app" className="bg-gray-800 text-white px-4 py-2 rounded">
+          <Link to="/apps" className="bg-gray-800 text-white px-4 py-2 rounded">
             Show All
           </Link>
         </div>
