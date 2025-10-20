@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "./assets/app1.webp",
+    "image": "https://i.ibb.co.com/BV4rGJtx/demo-app-1.webp",
     "title": "ChatFlow",
     "companyName": "Flow Labs",
     "description": "A smart chat assistant for teams.",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "./assets/app2.webp",
+    "image": "https://i.ibb.co.com/sXW9JXQ/demo-app-2.webp",
     "title": "FitPulse",
     "companyName": "Pulse Inc.",
     "description": "Track workouts and health metrics.",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "image": "./assets/app3.webp",
+    "image": "https://i.ibb.co.com/4n7wtQg8/demo-app-3.webps",
     "title": "NoteSpark",
     "companyName": "Scribe Co.",
     "description": "Fast note-taking with cloud sync.",
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "image": "./assets/app4.webp",
+    "image": "https://i.ibb.co.com/WvWgVZ82/demo-app-4.webp",
     "title": "SnapEdit",
     "companyName": "Pixel Studio",
     "description": "Photo editor with AI filters.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 5,
-    "image": "./assets/app5.webp",
+    "image": "https://i.ibb.co.com/93gV6NkD/demo-app-5.webp",
     "title": "BudgetBee",
     "companyName": "Moneywise",
     "description": "Simple budget and expense manager.",
@@ -91,7 +91,7 @@
   },
   {
     "id": 6,
-    "image": "./assets/app6.webp",
+    "image": "https://i.ibb.co.com/DP2zXMwL/demo-app-6.webp",
     "title": "CookPad",
     "companyName": "Kitchenly",
     "description": "Thousands of recipes with step-by-step videos.",

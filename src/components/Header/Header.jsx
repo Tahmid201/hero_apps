@@ -23,13 +23,25 @@ const Header = () => {
           </div>
 
           <nav className="hidden lg:flex space-x-8 font-medium text-base">
-            <NavLink to="/" className="hover:text-blue-500">
+            <NavLink to="/" className={({ isActive }) =>
+            isActive
+              ? "text-[#632EE3] border-b-2 border-[#632EE3] pb-1"
+              : "text-gray-700 hover:text-[#632EE3]"
+          }>
               Home
             </NavLink>
-            <NavLink to="/apps" className="hover:text-blue-500">
+            <NavLink to="/apps" className={({ isActive }) =>
+            isActive
+              ? "text-[#632EE3] border-b-2 border-[#632EE3] pb-1"
+              : "text-gray-700 hover:text-[#632EE3]"
+          }>
               Apps
             </NavLink>
-            <NavLink to="/installs" className="hover:text-blue-500">
+            <NavLink to="/installs" className={({ isActive }) =>
+            isActive
+              ? "text-[#632EE3] border-b-2 border-[#632EE3] pb-1"
+              : "text-gray-700 hover:text-[#632EE3]"
+          }>
               Installations
             </NavLink>
           </nav>

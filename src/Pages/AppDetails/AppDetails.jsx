@@ -8,7 +8,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import appsData from "../../data/AppsData.json";
+import appsData from "../../Data/AppsData.json"
 
 export default function AppDetails() {
   const { id } = useParams();
@@ -46,7 +46,6 @@ export default function AppDetails() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-      {/* Top section */}
       <div className="flex flex-col md:flex-row items-start md:items-center gap-8 bg-white p-6 rounded-2xl shadow-sm border border-gray-200">
         <img
           src={app.image}
@@ -69,7 +68,7 @@ export default function AppDetails() {
             <span className="font-semibold">Reviews:</span> {app.reviews}
           </p>
           <p className="text-yellow-500 font-semibold mb-4">
-            ⭐ {app.ratingAvg}
+            {app.ratingAvg}
           </p>
 
           <button
@@ -85,8 +84,6 @@ export default function AppDetails() {
           </button>
         </div>
       </div>
-
-      {/* Review chart */}
       <div className="mt-10 bg-white p-6 rounded-2xl shadow-sm border border-gray-200">
         <h3 className="text-xl font-semibold mb-4 text-gray-800">
           Review Statistics
@@ -101,7 +98,6 @@ export default function AppDetails() {
         </ResponsiveContainer>
       </div>
 
-      {/* Description */}
       <div className="mt-10 bg-white p-6 rounded-2xl shadow-sm border border-gray-200">
         <h3 className="text-xl font-semibold mb-3 text-gray-800">
           Description
@@ -109,7 +105,6 @@ export default function AppDetails() {
         <p className="text-gray-600 leading-relaxed">{app.description}</p>
       </div>
 
-      {/* Back button */}
       <div className="text-center mt-10">
         <Link
           to="/apps"
