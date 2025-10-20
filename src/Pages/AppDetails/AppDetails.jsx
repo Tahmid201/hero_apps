@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useParams, Link } from "react-router-dom";
+
 import {
   BarChart,
   Bar,
@@ -9,6 +10,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import appsData from "../../Data/AppsData.json"
+import { toast } from "react-toastify";
 
 export default function AppDetails() {
   const { id } = useParams();
@@ -40,7 +42,7 @@ export default function AppDetails() {
       stored.push(app);
       localStorage.setItem("installedApps", JSON.stringify(stored));
       setInstalled(true);
-      alert("✅ App Installed Successfully!");
+      toast("✅ App Installed Successfully!");
     }
   };
 
@@ -113,6 +115,7 @@ export default function AppDetails() {
           ← Back to All Apps
         </Link>
       </div>
+      
     </div>
   );
 }

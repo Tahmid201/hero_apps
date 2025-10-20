@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { toast } from "react-toastify";
 
 export default function InstallationPage() {
   const [apps, setApps] = useState(
@@ -9,7 +10,7 @@ export default function InstallationPage() {
     const updated = apps.filter((app) => app.id !== id);
     setApps(updated);
     localStorage.setItem("installedApps", JSON.stringify(updated));
-    alert("App Uninstalled!");
+    toast("App Uninstalled!");
   };
 
   if (apps.length === 0) {
